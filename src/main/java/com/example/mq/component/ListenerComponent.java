@@ -8,7 +8,7 @@ public class ListenerComponent {
 
     static boolean warned = false;
 
-    @JmsListener(destination = "DEV.QUEUE.1")
+    @JmsListener(destination = "${queue.in}")
     public void receiveMessage(String msg){
         infinityWarning();
 
