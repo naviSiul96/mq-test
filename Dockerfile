@@ -6,4 +6,6 @@ ARG JAR_FILE=target/mq-0.0.1.jar
 
 COPY ${JAR_FILE} app.jar
 
+RUN mvn clean install
+
 ENTRYPOINT [ "java", "-jar", "/app.jar" ]
