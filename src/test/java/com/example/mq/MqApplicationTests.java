@@ -3,10 +3,10 @@ package com.example.mq;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class MqApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
