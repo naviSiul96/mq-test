@@ -40,6 +40,11 @@
 			<artifactId>mq-jms-spring-boot-starter</artifactId>
 			<version>3.2.1</version>
 		</dependency>
+		<dependency>
+      		<groupId>io.fabric8</groupId>
+      		<artifactId>spring-cloud-kubernetes-core</artifactId>
+			<version>0.1.6</version>
+    	</dependency>
 	</dependencies>
 
 	<build>
