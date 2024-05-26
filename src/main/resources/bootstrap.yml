@@ -1,6 +1,6 @@
 spring:
   application:
-    name: mq-test
+    name: configmap-test
   cloud:
     kubernetes:
       reload:
